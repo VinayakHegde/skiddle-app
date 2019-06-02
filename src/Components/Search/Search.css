@@ -1,0 +1,24 @@
+.search-events {
+    text-align: center;
+    width: 50%;
+    height: 35px;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+}
+.search-events:focus {
+    outline:none;
+}
+
+.search-events::placeholder {
+    color: gray;
+    opacity: 0.5; /* Firefox */
+}
+  
+.search-events:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: gray;
+}
+  
+.search-events::-ms-input-placeholder { /* Microsoft Edge */
+    color: gray;
+}

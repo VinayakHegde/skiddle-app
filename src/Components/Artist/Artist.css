@@ -1,0 +1,25 @@
+.artist-wrapper {
+    width: calc(100% - 20px);
+    margin: 10px;
+    cursor: pointer;
+}
+.artist-pic {
+    width: 100%;
+    height: calc(100% - 35px);
+}
+.artist-name {
+    background: #000;
+    color: #fff;
+    height: 2em;
+    line-height: 2;
+    margin-top: -5px;
+    font-size: large;
+    font-weight: 700;
+}
+
+
+@media only screen and (max-width: 350px) {
+    .artist-details-wrapper {
+        width: 265px;
+    }
+}

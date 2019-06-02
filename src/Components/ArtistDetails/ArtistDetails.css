@@ -1,0 +1,10 @@
+.artist-details-wrapper{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.artist-details-wrapper .artist-wrapper {
+    width: calc(100% - 20px) !important;
+}

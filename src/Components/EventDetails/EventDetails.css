@@ -1,0 +1,58 @@
+.event-details-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow: auto;
+}
+.event-segment {
+    padding: 5px;
+}
+.event-header {
+    border: 5px double #46c3be;
+    padding: 10px;
+}
+.event-details-inner-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+} 
+.event-banner{
+    display: flex;
+    border-bottom: 5px double #46c3be;
+    padding: 10px;
+}
+.event-details {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+}
+.event-name {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0 0 20px;
+}
+.event-artists {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.event-artists > .artist-wrapper{
+    width: 170px;
+    height: 205px;
+}
+
+@media only screen and (max-width: 499px) {
+    .event-banner{
+        flex-direction: column;
+        justify-content: center;
+    } 
+    .event-artists > .artist-wrapper{
+        width: calc(100% - 20px);
+        height: auto;
+    }
+    .event-poster {
+        width: calc(100% - 20px);
+    }
+}
