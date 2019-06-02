@@ -3,6 +3,8 @@
 React web application that allows users to search for events,
 obtain events details and get any artist details related to that event.
 
+[Demo](https://vinayakhegde.github.io/skiddle-app/)
+
 ## Relevant API endpoints:
 Use following API key: 008f1e6099ecc48e990e3776784d447b for the technical task.
 
